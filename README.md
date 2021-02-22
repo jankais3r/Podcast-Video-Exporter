@@ -20,6 +20,8 @@ pip install beautifulsoup4
 - [Download](https://github.com/holzschu/a-Shell-commands/releases/tag/0.1) a pre-built `ffmpeg.wasm` binary and put it into `$HOME/Documents/bin/`
 - Put `export.py` from this repo into `$HOME/Documents/`
 
+![Demo](https://github.com/jankais3r/PocketCasts-Video-Exporter/blob/main/demo.png)
+
 ## To-do
 - [x] Initial release
 - [ ] Rectangular video format
