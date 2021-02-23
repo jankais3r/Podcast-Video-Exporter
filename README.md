@@ -9,7 +9,7 @@ See it in action [here](https://twitter.com/jankais3r/status/1363887846784917507
 - [a-shell](https://apps.apple.com/us/app/a-shell/id1473805438)
 
 ### Shortcuts setup
-- Install the following shortcut: [iCloud Link](https://www.icloud.com/shortcuts/c1c06763d57a4b008a16485b8605a9c3)
+- Install the following shortcut: [iCloud Link](https://www.icloud.com/shortcuts/64fa0bddb6a14e90a29820c79f3143da)
 
 ### a-shell setup
 - Install Python dependencies
@@ -24,5 +24,5 @@ pip install beautifulsoup4
 
 ## To-do
 - [x] Initial release
-- [ ] Rectangular video format
+- [x] Landscape video format
 - [ ] Color themes
