@@ -5,11 +5,25 @@ See it in action [here](https://twitter.com/jankais3r/status/1363887846784917507
 
 
 ## Required apps
-- [Pocket Casts](https://apps.apple.com/us/app/pocket-casts/id414834813)
 - [a-shell](https://apps.apple.com/us/app/a-shell/id1473805438)
+- Any of the supported podcast apps:
+  - [Apple Podcasts](https://apps.apple.com/us/app/apple-podcasts/id525463029)
+  - [Pocket Casts](https://apps.apple.com/us/app/pocket-casts/id414834813)
+  - [Castro](https://apps.apple.com/us/app/castro-podcast-player/id1080840241)
+  - [Overcast](https://apps.apple.com/us/app/overcast/id888422857)
+  - [Stitcher](https://apps.apple.com/us/app/stitcher-for-podcasts/id288087905)
+  - [Google Podcasts](https://apps.apple.com/us/app/google-podcasts/id1398000105)
+  - [Deezer](https://apps.apple.com/us/app/deezer-music-podcast-player/id292738169)
+  - [Castbox](https://apps.apple.com/us/app/castbox-podcast-player/id1243410543)
+  - [The Podcast App](https://apps.apple.com/us/app/the-podcast-app/id1199070742)
+  - [Player FM](https://apps.apple.com/us/app/player-fm-podcast-app/id940568467)
+  - [Breaker](https://apps.apple.com/us/app/breaker-the-social-podcast-app/id1215095006)
+  - [Acast](https://apps.apple.com/us/app/acast-podcast-player/id925311796)
+  - [RadioPublic](https://apps.apple.com/us/app/radiopublic-the-podcast-app/id1113752736)
+  - [Podbean](https://apps.apple.com/us/app/podbean-podcast-app-player/id973361050)
 
 ### Shortcuts setup
-- Install the following shortcut: [iCloud Link](https://www.icloud.com/shortcuts/64fa0bddb6a14e90a29820c79f3143da)
+- Install the following shortcut: [iCloud Link](https://www.icloud.com/shortcuts/dfff514bf22c4c4d96e1d04d918130b8)
 
 ### a-shell setup
 - Install Python dependencies
@@ -25,4 +39,4 @@ pip install beautifulsoup4
 ## To-do
 - [x] Initial release
 - [x] Landscape video format
-- [ ] Color themes
+- [x] Color themes
