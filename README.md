@@ -1,8 +1,9 @@
-# PocketCasts Video Exporter
-This Shortcut and Python script combo allows to render excerpts of podcasts as videos to be shared online, e.g. on Twitter.
+# Podcast Video Exporter
+This Shortcut and Python script combo allows you to export podcast excerpts as videos to be shared online, e.g. on Twitter.
 
 See it in action [here](https://twitter.com/jankais3r/status/1363887846784917507).
 
+![Demo](https://github.com/jankais3r/Podcast-Video-Exporter/blob/main/demo.png)
 
 ## Required apps
 - [a-shell](https://apps.apple.com/us/app/a-shell/id1473805438)
@@ -25,6 +26,11 @@ See it in action [here](https://twitter.com/jankais3r/status/1363887846784917507
 ### Shortcuts setup
 - Install the following shortcut: [iCloud Link](https://www.icloud.com/shortcuts/6de71570cb6b44248ab981ca336e52e6)
 
+The maximum export resolution is 1400x1400 for the square video format, and 1400x600 for the landscape video format. The default resolution is half that (700x700 and 700x300). Increasing the resolution increases the time it takes to generate the video.
+
+To change the video resolution, edit this part of the Shortcut:
+![Resolution](https://github.com/jankais3r/Podcast-Video-Exporter/blob/main/resolution.jpg)
+
 ### a-shell setup
 - Install Python dependencies
 ```
@@ -33,8 +39,6 @@ pip install beautifulsoup4
 ```
 - [Download](https://github.com/holzschu/a-Shell-commands/releases/tag/0.1) a pre-built `ffmpeg.wasm` binary and put it into `$HOME/Documents/bin/`
 - Put `export.py` from this repo into `$HOME/Documents/`
-
-![Demo](https://github.com/jankais3r/Podcast-Video-Exporter/blob/main/demo.png)
 
 ## To-do
 - [x] Initial release
