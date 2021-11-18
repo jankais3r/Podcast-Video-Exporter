@@ -498,7 +498,7 @@ elif videoFormat == 'landscape':
 		img.save('frames/frame_' + str(c).zfill(4) + '.bmp')
 
 print('Merging frames.')
-subprocess.call('ffmpeg -s ' + str(int(math.ceil(round(W * renderResolutionRatio) / 2) * 2)) + 'x' + str(int(round(H * renderResolutionRatio))) + ' -framerate ' + str(fps) + ' -i frames/frame_%04d.bmp -c:v libx264 -pix_fmt yuv420p video.mp4', stderr = subprocess.DEVNULL)
+subprocess.call('ffmpeg -s ' + str(int(math.ceil(round(W * renderResolutionRatio) / 2) * 2)) + 'x' + str(int(round(H * renderResolutionRatio))) + ' -framerate ' + str(fps) + ' -patern_type glob -i "frames/*.bmp" -c:v libx264 -pix_fmt yuv420p video.mp4', stderr = subprocess.DEVNULL)
 print('Trimming audio.')
 subprocess.call('ffmpeg -ss ' + str(startTime) + ' -t ' + str(clipDuration) + ' -i ' + audioName + ' -map a trimmed.aac', stderr = subprocess.DEVNULL)
 print('Exporting.')
